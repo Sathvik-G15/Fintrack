@@ -1,0 +1,8 @@
+.transactionsContainer {
+  padding: 1rem 2rem;
+}
+
+.transactionsContainer h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}

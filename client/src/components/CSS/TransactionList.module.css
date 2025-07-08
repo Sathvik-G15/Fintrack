@@ -1,0 +1,146 @@
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.category {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.actions button {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.actions button:last-child {
+  background-color: #ff6666;
+  color: white;
+}
+.list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.editForm input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actions button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.actions button:last-child {
+  background-color: #ff6666;
+  color: white;
+}
+@media (max-width: 600px) {
+  .list {
+    padding: 1rem;
+  }
+
+  .list h2 {
+    font-size: 1.25rem;
+  }
+
+  .list li {
+    padding: 0.75rem;
+  }
+
+  .editForm input {
+    font-size: 0.9rem;
+  }
+
+  .actions button {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+

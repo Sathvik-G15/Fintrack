@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^3.1.0"
+  },
+  "name": "fintrack-server",
+  "version": "1.0.0",
+  "description": "Server-side application for FinTrack, a financial tracking tool.",
+  "main": "index.js"
+}
